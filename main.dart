@@ -104,8 +104,8 @@ class MyHomePage extends StatelessWidget {
         title: Text('Haftalık Program'),
         leading: Image.network(
           'https://sanatakademi.com.tr/uploads/2023/02/cagdas-sanat-akimlari-2.jpg',
-          width: 40, // Resmin genişliği
-          height: 40, // Resmin yüksekliği
+          width: 40, 
+          height: 40, 
         ),
         actions: <Widget>[
           IconButton(
@@ -136,14 +136,14 @@ class MyHomePage extends StatelessWidget {
         mainAxisAlignment: MainAxisAlignment.center,
         children: <Widget>[
           Container(
-            color: Colors.green, // Arka plan rengi
+            color: Colors.green, 
             padding: EdgeInsets.all(16.0),
             child: Text(
               'Mustafa Alp Haftalık Listesi',
               style: TextStyle(
                 fontSize: 24,
                 fontWeight: FontWeight.bold,
-                color: Colors.white, // Yazı rengi
+                color: Colors.white, 
               ),
             ),
           ),
@@ -230,7 +230,7 @@ class SettingsPage extends StatefulWidget {
 }
 
 class _SettingsPageState extends State<SettingsPage> {
-  String selectedTheme = 'Light'; // Varsayılan tema
+  String selectedTheme = 'Light'; 
 
   @override
   Widget build(BuildContext context) {
